@@ -1,11 +1,116 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart-Ticketing</title>
+     <!-- Daisy and tailwind -->
+ 
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <!-- font-awsome -->
+    <script src="https://kit.fontawesome.com/d534362675.js" crossorigin="anonymous"></script>
+
+    <!-- custom-css -->
+    <link rel="stylesheet" href="/styles/styles.css">
 </head>
+
 <body>
+    <header class="container mx-auto">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Destination</a></li>
+                  <li><a>Search</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-3xl font-raleway">Ena-Bus-E-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg btn-success font-raleway  bg-[#1DD1001A]" style="color: #1DD100;">Bus
+                <img src="../images/bus-icon.png" alt=""></button>
+            </div>
+          </div>
+          
+          <!-- banner section -->
+          <section class=" mt-6 lg:rounded-3xl lg:h-[550px] ">
+            <div class="hero lg:rounded-3xl lg:bg-cover lg:h-[550px] " style="background-image: url(../images/banner.png); ">
+                <div class="hero-overlay bg-opacity-60 lg:rounded-3xl"></div>
+                <div class="hero-content text-center text-neutral-content  lg:w-[1000px]">
+                  <div class=" lg:w-[600px]">
+                    <h1 class="mb-5 text-5xl  font-raleway">End-to-End Travel with <br><span class="font-raleway" style="color:#1DD100">Ena Paribahan</span> </h1>
+                    <p class="mb-5">Your best travel partner to give you  and your family the most comfortable  and safe journey</p>
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-[#1DD100] font-raleway">Buy Tickets</button>
+                  </div>
+                </div>
+              </div>
+               <!-- sub divs in banner  3rd-->
+              <div class=" m-3   h-[120px] lg:absolute lg:right-[120px] lg:bottom-[-170px] p-5 lg:w-[300px] lg:h-[150px] rounded-3xl bg-white border border-green-500 border-b-8">
+                <div class="flex gap-5 p-5">
+                    <div class="border-dotted border-4 ">
+                    <img src="../images/stoppage.png" alt="">
+                    </div>
+                    <div>
+                  <h1 class="font-raleway text-4xl">80k+</h1>
+                  <p class="font-extralight font-inter">Rental partners</p>
+                  </div>
+                  </div>
+              </div>
+                 <!-- sub divs in banner  2nd-->
+                 <div class=" m-3   h-[120px] lg:absolute lg:left-[120px] lg:bottom-[-170px] p-5 lg:w-[300px] lg:h-[150px] rounded-3xl bg-white border border-green-500 border-b-8">
+                    <div class="flex gap-5 p-5">
+                        <div class="border-dotted border-4 ">
+                        <img src="../images/people.png" alt="">
+                        </div>
+                        <div>
+                      <h1 class="font-raleway text-4xl">500k+</h1>
+                      <p class="font-extralight font-inter">Registerd users</p>
+                      </div>
+                      </div>
+                  </div>
+                     <!-- sub divs in banner  1st-->
+              <div class=" m-3   h-[120px] lg:absolute lg:left-[480px] lg:bottom-[-170px] p-5 lg:w-[300px] lg:h-[150px] rounded-3xl bg-white border border-green-500 border-b-8">
+                <div class="flex gap-5 p-5">
+                    <div class="border-dotted border-4 ">
+                    <img src="../images/ticket-cupon.png" alt="">
+                    </div>
+                    <div>
+                  <h1 class="font-raleway text-3xl">1.7 lacks</h1>
+                  <p class="font-extralight font-inter">Tickets Sold</p>
+                  </div>
+                  </div>
+              </div>
+          </section>
+
+    </header>
+
+    <main class=" mt-44 container mx-auto">
+        <section>
+          <h1 class="font-raleway text-center text-5xl mb-11">Best offers for you</h1>
+          <div class="mt-36"> <img src="../images/ellipse.png" alt=""></div>
+          <div class="text-center mt-24">
+            <button class="btn btn-outline btn-success w-44 ">See All Offers</button>
+          </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
