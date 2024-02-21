@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header class="container mx-auto">
+    <header id="home" class="container mx-auto ">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
@@ -47,14 +47,14 @@
           </div>
           
           <!-- banner section -->
-          <section class=" mt-6 lg:rounded-3xl lg:h-[550px] ">
+          <section  class=" mt-6 lg:rounded-3xl lg:h-[550px] ">
             <div class="hero lg:rounded-3xl lg:bg-cover lg:h-[550px] " style="background-image: url(../images/banner.png); ">
                 <div class="hero-overlay bg-opacity-60 lg:rounded-3xl"></div>
                 <div class="hero-content text-center text-neutral-content  lg:w-[1000px]">
                   <div class=" lg:w-[600px]">
                     <h1 class="mb-5 text-5xl  font-raleway">End-to-End Travel with <br><span class="font-raleway" style="color:#1DD100">Ena Paribahan</span> </h1>
                     <p class="mb-5">Your best travel partner to give you  and your family the most comfortable  and safe journey</p>
-                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-[#1DD100] font-raleway">Buy Tickets</button>
+                    <button onclick="begin()" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-[#1DD100] font-raleway">Buy Tickets</button>
                   </div>
                 </div>
               </div>
@@ -96,9 +96,9 @@
               </div>
           </section>
 
-    </header>
+    
 
-    <main class=" mt-44 container mx-auto">
+    <section class="mt-44 container mx-auto">
         <section>
           <h1 class="font-raleway text-center text-5xl mb-11">Best offers for you</h1>
           <div class="mt-36"> <img src="../images/ellipse.png" alt=""></div>
@@ -106,6 +106,12 @@
             <button class="btn btn-outline btn-success w-44 font-raleway " style="color:#1DD100">See All Offers</button>
           </div>
         </section>
+        </section>
+
+         <!-- end of header -->
+        </header>
+        
+        <main id="next" class=" mt-44 container mx-auto hidden">
            <!-- next page -->
            <section class="mt-36 lg:h-[2208px] bg-[#F7F8F8] border border-t-7 border-lime-400  rounded-3xl">
             <div>
@@ -175,6 +181,8 @@
                 
 
             </div>
+            <!-- nextpage 2nd-div -->
+            
            </section>
 
     </main>
@@ -182,5 +190,7 @@
 
     </footer>
     
-</body>
+          <!-- the script source -->
+          <script src="js/page.js"></script>
+    </body>
 </html>
